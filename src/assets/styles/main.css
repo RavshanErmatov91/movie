@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+}
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+}
+.card {
+  margin-bottom: 40px;
+}
+.box {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  gap: 30px;
+}
+.singleButton {
+  padding: 20px;
+  background: blue;
+  color: white;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}

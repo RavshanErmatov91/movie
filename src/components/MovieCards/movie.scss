@@ -1,0 +1,17 @@
+.card {
+  color: #fff;
+  text-align: center;
+
+  h5 {
+    font-size: 20px;
+    margin: 10px 0;
+    width: 280px;
+    transition: all ease 0.7s;
+    &:hover {
+      color: crimson;
+    }
+  }
+  p {
+    opacity: 0.5;
+  }
+}
